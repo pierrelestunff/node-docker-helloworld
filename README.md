@@ -8,7 +8,7 @@ $ docker build -t <your username>/node-docker-helloworld .
 $ docker images
 
 # run the image
-$ docker run -p 49160:8080 -d <your username>/node-docker-helloworld
+$ docker run -p 3000:3000 -d <your username>/node-docker-helloworld
 
 # push the image to docker hub
 $ docker push
